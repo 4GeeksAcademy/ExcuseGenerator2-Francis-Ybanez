@@ -13,11 +13,11 @@ let what = [' my homework', ' my phone', ' the car'];
 let when = [' before the class', ' when I was sleeping', ' while I was exercising', ' during my lunch', ' while I was praying'];
   
 
-let opt1 = Math.floor(Math.random() * who.length);
-let opt2 = Math.floor(Math.random() * action.length);
-let opt3 = Math.floor(Math.random() * what.length);
-let opt4 = Math.floor(Math.random() * when.length);
+let random1 = Math.floor(Math.random() * who.length);
+let random2 = Math.floor(Math.random() * action.length);
+let random3 = Math.floor(Math.random() * what.length);
+let random4 = Math.floor(Math.random() * when.length);
 
-document.querySelector("#excuse").innerHTML = who[opt1] + action[opt2] + what[opt3] + when[opt4];
+document.querySelector("#excuse").innerHTML = who[random1] + action[random2] + what[random3] + when[random4];
 
 };
